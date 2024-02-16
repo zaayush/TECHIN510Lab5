@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from dp import get_db_conn
+from db import get_db_conn
 
 # Load environment variables from .env file
 load_dotenv()
