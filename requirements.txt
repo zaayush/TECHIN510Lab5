@@ -1,0 +1,11 @@
+altair
+beautifulsoup4
+folium
+psycopg2-binary
+pandas
+requests
+streamlit
+psycopg2-binary
+python-dotenv
+streamlit-folium
+sqlalchemy
