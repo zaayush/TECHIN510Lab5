@@ -10,11 +10,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Or just go the link : [Seattle Events Data Visualization]()
+Or just go the link : [Seattle Events Data Visualization](aayushlab5.azurewebsites.net)
 
 ## What's Included
 
-- `app.py`: The main application made with streamlit
+- `app.py`: The main application made with streamlit.
+- `scraper.py`: The scraper application to scrape data from Seattle Events website.
 
 ## Lessons Learned
 

@@ -1,11 +1,8 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from dotenv import load_dotenv
 from db import get_db_conn
 
-# Load environment variables from .env file
-load_dotenv()
 
 def extract(page):
     url = f'https://visitseattle.org/events/page/{page}'
@@ -70,13 +67,13 @@ for data in event_data:
             forcast_url = point_dict['properties']['forecast']
             res = requests.get(forcast_url)
             weather_data = res.json()
+            # print (weather_data)
             if 'properties' in weather_data and 'periods' in weather_data['properties']:
                 forecast = weather_data['properties']['periods'][0]
                 detailed_forecast = forecast['detailedForecast']
-                temperature_min = forecast['temperatureMin']
-                temperature_max = forecast['temperatureMax']
-                windchill = forecast['windChill']
-                data.extend([detailed_forecast, temperature_min, temperature_max, windchill])
+                temperature = forecast['temperature']
+                windSpeed = forecast['windSpeed']
+                data.extend([detailed_forecast, temperature, windSpeed])
             else:
                 data.extend(["Weather data not available"] * 4)
         else:
@@ -90,7 +87,7 @@ cursor = conn.cursor()
 for data in event_data:
     # Use INSERT INTO ... ON CONFLICT DO NOTHING to ensure only unique data is inserted
     cursor.execute("""
-        INSERT INTO events (name, date, location, event_type, region, latitude, longitude, weather_forecast, temperature_min, temperature_max, windchill) 
+        INSERT INTO events (name, date, location, event_type, region, latitude, longitude, weather_forecast, temperature, windSpeed) 
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) 
         ON CONFLICT (name, date, location) DO NOTHING
     """, data)
