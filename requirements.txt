@@ -5,7 +5,7 @@ psycopg2-binary
 pandas
 requests
 streamlit
-psycopg2-binary
-python-dotenv
-streamlit-folium
+psycopg2
+python dotenv
+streamlit folium
 sqlalchemy
