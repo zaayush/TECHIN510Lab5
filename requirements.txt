@@ -6,6 +6,6 @@ pandas
 requests
 streamlit
 psycopg2
-python dotenv
+python-dotenv
 streamlit folium
 sqlalchemy
