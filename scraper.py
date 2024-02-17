@@ -2,7 +2,9 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from db import get_db_conn
-
+import csv
+import os
+import re
 
 def extract(page):
     url = f'https://visitseattle.org/events/page/{page}'
@@ -26,6 +28,8 @@ def extract_event_details(event_url):
     event_type = soup.find_all("a", class_="button big medium black category")[0].text.strip()
     region = soup.find_all("a", class_="button big medium black category")[1].text.strip()
     
+    date = re.sub(r'^Now through\s+', '', date)
+
     return [name, date, location, event_type, region]
 
 # Extract event URLs
@@ -81,16 +85,59 @@ for data in event_data:
     else:
         data.extend(["Weather data not available"] * 4)
 
+        
+
+# Save data to a CSV file
+csv_file = os.path.join(os.getcwd(), 'output.csv')
+header = ['name', 'date', 'location', 'event_type', 'region', 'latitude', 'longitude', 'weather_forecast', 'temperature', 'windSpeed']
+
+with open(csv_file, 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(header)
+    writer.writerows(event_data)
+
+print("Data has been successfully written to the CSV file.")
+
 # Store data in the Azure PostgreSQL database
 conn = get_db_conn()
 cursor = conn.cursor()
+
+# Store data in the Azure PostgreSQL database
+conn = get_db_conn()
+cursor = conn.cursor()
+
+# Create the 'events' table if it does not exist
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS events (
+        id SERIAL PRIMARY KEY,
+        name TEXT,
+        date TEXT,
+        location TEXT,
+        event_type TEXT,
+        region TEXT,
+        latitude FLOAT,
+        longitude FLOAT,
+        weather_forecast TEXT,
+        temperature FLOAT,
+        windSpeed FLOAT
+    )
+""")
+
+# Insert data into the 'events' table
 for data in event_data:
+    # Extract the numerical part of the windSpeed string
+    wind_speed_str = data[-1]  # Assuming windSpeed is the last element in the data list
+    wind_speed_numeric = None
+    try:
+        wind_speed_numeric = float(wind_speed_str.split()[0])  # Extracting the numeric part
+    except (ValueError, IndexError):
+        pass  # Handle cases where windSpeed is not properly formatted
+
     # Use INSERT INTO ... ON CONFLICT DO NOTHING to ensure only unique data is inserted
     cursor.execute("""
         INSERT INTO events (name, date, location, event_type, region, latitude, longitude, weather_forecast, temperature, windSpeed) 
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) 
-        ON CONFLICT (name, date, location) DO NOTHING
-    """, data)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s) 
+    """, data[:-1] + [wind_speed_numeric])  # Exclude the last element (windSpeed) and append the numeric windSpeed
 
 # Commit the transaction and close the cursor and connection
 conn.commit()
