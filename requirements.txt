@@ -7,5 +7,5 @@ requests
 streamlit
 psycopg2
 python-dotenv
-streamlit folium
+streamlit-folium
 sqlalchemy
