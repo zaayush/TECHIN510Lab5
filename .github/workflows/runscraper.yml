@@ -3,7 +3,7 @@ name: run scraper.py
 on:
   workflow_dispatch: 
   schedule:
-    - cron: '*/30 * * * *' # At 00:00 on Monday
+    - cron: '0 0 * * *' # At 12:00 AM every day
 
 jobs:
   build:
