@@ -29,12 +29,12 @@ def extract_event_details(event_url):
     region = soup.find_all("a", class_="button big medium black category")[1].text.strip()
     
     date = re.sub(r'^Now through\s+', '', date)
-
+    date = re.sub(r'^.*through\s+', '', date)
     return [name, date, location, event_type, region]
 
 # Extract event URLs
 event_data = []
-for page in range(0, 2):
+for page in range(0, 10):
     print(f'Getting page {page}...')
     soup = extract(page)
     event_urls = extract_event_urls(soup)

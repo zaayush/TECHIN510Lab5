@@ -28,7 +28,7 @@ sslmode = "require"
 # Construct connection string
 def get_db_conn():
     conn_string = "host={0} user={1} dbname={2} password={3} sslmode={4}".format(host, user, dbname, password, sslmode)
-    print(conn_string)
+    #print(conn_string)
     conn = psycopg2.connect(conn_string)
     print("Connection established")
     conn.autocommit = True

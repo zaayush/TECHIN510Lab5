@@ -1,19 +1,91 @@
 name,date,location,event_type,region,latitude,longitude,weather_forecast,temperature,windSpeed
-Circa:Humans 2.0,Now through 2/17/2024,Meany Center for the Performing Arts,Theatre,University District,47.6612984,-122.3131523,"Partly sunny. High near 49, with temperatures falling to around 46 in the afternoon. East wind around 13 mph.",49,13 mph
-Big Business,2/17/2024,Tractor Tavern,Music,Fremont / Ballard,47.6504529,-122.3499861,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Carl Christensen and The Lake Flora Band,2/17/2024,Barboza,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-David Wax Museum,2/17/2024,Fremont Abbey Arts Center,Music,Fremont / Ballard,47.6504529,-122.3499861,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Jon Batiste,2/17/2024,The Paramount Theatre,Music,Downtown,47.6063761,-122.3345788,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-lespecial,2/17/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Saturday Family Concert: Lady A,2/17/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-TobyMac Hits Deep 2024,2/17/2024,accesso ShoWare Center,Music,South,47.6191101,-122.33653138239433,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-Victor Andy Castillo,2/17/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Circa:Humans 2.0,Now through 2/17/2024,Meany Center for the Performing Arts,Theatre,University District,47.6612984,-122.3131523,"Partly sunny. High near 49, with temperatures falling to around 46 in the afternoon. East wind around 13 mph.",49,13 mph
-Big Business,2/17/2024,Tractor Tavern,Music,Fremont / Ballard,47.6504529,-122.3499861,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Carl Christensen and The Lake Flora Band,2/17/2024,Barboza,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-David Wax Museum,2/17/2024,Fremont Abbey Arts Center,Music,Fremont / Ballard,47.6504529,-122.3499861,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Jon Batiste,2/17/2024,The Paramount Theatre,Music,Downtown,47.6063761,-122.3345788,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-lespecial,2/17/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
-Saturday Family Concert: Lady A,2/17/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-TobyMac Hits Deep 2024,2/17/2024,accesso ShoWare Center,Music,South,47.6191101,-122.33653138239433,"Partly sunny. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 14 mph.",48,14 mph
-Victor Andy Castillo,2/17/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy. High near 48, with temperatures falling to around 46 in the afternoon. East wind around 15 mph.",48,15 mph
+Community is a Radical Act of Love,2/19/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Seattle Kraken vs. Detroit Red Wings,2/19/2024,Climate Pledge Arena,Sports,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+The Thrifted,2/19/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Black and Boujee,2/20/2024,Bainbridge Island Museum of Art,Museums,West,47.6028956,-122.33984,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+From Mozart to Matthews,2/20/2024,Benaroya Hall,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Lukas Nelson,2/20/2024,The Showbox,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Mahogany – smARTfilms: Black Luxury,2/20/2024,Bainbridge Island Museum of Art,Film & Media Arts,West,47.6028956,-122.33984,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+Robots Who Paint,2/20/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Trask,2/20/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Community is a Radical Act of Love,2/19/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Seattle Kraken vs. Detroit Red Wings,2/19/2024,Climate Pledge Arena,Sports,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+The Thrifted,2/19/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Black and Boujee,2/20/2024,Bainbridge Island Museum of Art,Museums,West,47.6028956,-122.33984,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+From Mozart to Matthews,2/20/2024,Benaroya Hall,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Lukas Nelson,2/20/2024,The Showbox,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Mahogany – smARTfilms: Black Luxury,2/20/2024,Bainbridge Island Museum of Art,Film & Media Arts,West,47.6028956,-122.33984,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+Robots Who Paint,2/20/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Trask,2/20/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+"Wu Han, Philip Setzer & David Finckel",2/20/2024,Meany Center for the Performing Arts,Music,University District,47.6612984,-122.3131523,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+The Cookers,2/21/2024,Dimitriou's Jazz Alley,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+A I M by Kyle Abraham,2/21/2024,The Moore Theatre,Dance,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Cesar Cuauhtemoc Garcia Hernandez,2/21/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Side-by-Side with Seattle Youth Symphony Orchestra,2/21/2024,Benaroya Hall,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Bailen,2/22/2024,The Crocodile,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Dr. Charan Ranganath,2/22/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Jack Parker,2/22/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Mountain Holler,2/22/2024,High Dive,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Northwest Blues Stars,2/22/2024,The Triple Door,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Seattle Kraken vs. Vancouver Canucks,2/22/2024,Climate Pledge Arena,Sports,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Shabaka,2/22/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Funky Friday with F2D,2/23/2024,Sea Monster Lounge,Music,Wallingford / Greenlake,47.6594631,-122.3343417,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+BLACKSTAR SYMPHONY: The Music of David Bowie,2/23/2024,Benaroya Hall,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Caligula’s Horse,2/23/2024,El Corazon,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Lisa Koch Big Ass Birthday Bash,2/23/2024,The Triple Door,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Opera Talk: The Making of X,2/23/2024,Opera Center,Readings & Lectures,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Tikkadoom and Nick Drummond,2/23/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Wreckno,2/23/2024,The Showbox,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Kelly Akashi,2/24/2024,Henry Art Gallery,Museums,University District,47.6612984,-122.3131523,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+The Lower Depths,2/24/2024,Erickson Theatre,Theatre,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Bassekou Kouyate and Vieux Farka Toure,2/24/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Bassekou Kouyate and Vieux Farka Toure,2/24/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Crystal Skies,2/24/2024,Nectar Lounge,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Dan Brown Wild Symphony,2/24/2024,Benaroya Hall,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Dana Gould and Bobcat Goldthwait,2/24/2024,The Triple Door,Theatre,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Knoll,2/24/2024,Funhouse,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Nate Jackson,2/24/2024,The Moore Theatre,Theatre,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Pink Sweat$,2/24/2024,The Showbox,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Root and Branch,2/24/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Seattle Kraken vs. Minnesota Wild,2/24/2024,Climate Pledge Arena,Sports,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Small Island Big Song,2/24/2024,Meany Center for the Performing Arts,Music,University District,47.6612984,-122.3131523,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+The Highsteppers Classic Soul Revue,2/24/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Tides of Times: A Conversation on Maritime Asia in Art and Trade,2/24/2024,Seattle Art Museum,Museums,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Born With Teeth,2/25/2024,ArtsWest Playhouse and Gallery,Theatre,West Seattle,47.5709315,-122.3865166,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+SAM Gallery Presents: Enter the Forest,2/25/2024,SAM Gallery,Visual Arts & Galleries,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+"Once More, Just For You",2/25/2024,Seattle Public Theater,Theatre,Wallingford / Greenlake,47.6594631,-122.3343417,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Seattle Home & Garden Show,2/25/2024,Lumen Field,Festivals & Special Events,Pioneer Square,47.6027217,-122.3313539,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Wintergrass Music Festival,2/25/2024,Hyatt Regency Bellevue,Festivals & Special Events,Bellevue / Eastside,47.5840088,-122.14088865484513,Weather data not available,Weather data not available,Weather data not available,Weather data not available
+Klezmer Starts Here: The Music of Abe Schwartz,2/25/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Telling the Story,2/25/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Cherry Glazerr,2/26/2024,Neumos,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Dick & Angel Dare to Do It,2/26/2024,The Paramount Theatre,Theatre,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Seattle Kraken vs. Boston Bruins,2/26/2024,Climate Pledge Arena,Sports,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Hunt for Sleeping Giants | National Geographic Live,2/27/2024,Benaroya Hall,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Big Tooth,2/27/2024,Sea Monster Lounge,Music,Wallingford / Greenlake,47.6594631,-122.3343417,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Eric Klinenberg,2/27/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Fresh Dressed – smARTfilms: Black Luxury,2/27/2024,Bainbridge Island Museum of Art,Museums,West,47.6028956,-122.33984,"Mostly cloudy, with a high near 48. East southeast wind around 5 mph.",48,5 mph
+Joy Harjo,2/27/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Kelsy Karter and The Heroines,2/27/2024,Funhouse,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Ron Pope,2/27/2024,The Triple Door,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Anand Gopal,2/28/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Dianne Reeves,2/28/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+He Films The Clouds,2/28/2024,Funhouse,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Kassa Overall,2/28/2024,Nectar Lounge,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Playboi Carti,2/28/2024,Climate Pledge Arena,Music,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Tommy Castro and The Painkillers,2/28/2024,The Triple Door,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Winter Brilliance,2/29/2024,Chihuly Garden and Glass,Museums,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Seattle Museum Month,2/29/2024,Downtown Seattle,Museums,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Corey Harris and Cedric Watson,2/29/2024,The Triple Door,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+JNA and Tavia Rhodes,2/29/2024,The Royal Room,Music,South Seattle,47.5614876,-122.312903,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Julian Lage,2/29/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+MarchFourth,2/29/2024,Nectar Lounge,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Quilts,2/29/2024,Sunset Tavern,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Seattle Kraken vs. Pittsburgh Penguins,2/29/2024,Climate Pledge Arena,Sports,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+The Human Family,2/29/2024,LANGSTON Seattle,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Conjuring Up Monsterz,3/1/2024,Funhouse,Music,Capitol Hill / Central District,47.6238307,-122.318368,"Mostly cloudy, with a high near 47. East wind around 3 mph.",47,3 mph
+Enjambre,3/1/2024,Nectar Lounge,Music,Fremont / Ballard,47.6504529,-122.3499861,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Fall Out Boy,3/1/2024,Climate Pledge Arena,Readings & Lectures,Queen Anne / Seattle Center,47.6394805,-122.3607453,"Mostly cloudy, with a high near 47. East wind around 5 mph.",47,5 mph
+Global Rhythms: Justin Adams and Mauro Durante,3/1/2024,Town Hall Seattle,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Sloane Crosley with Ben Gibbard,3/1/2024,Town Hall Seattle,Readings & Lectures,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph
+Supernova,3/1/2024,The Triple Door,Music,Downtown,47.6063761,-122.3345788,"Mostly cloudy, with a high near 46. East wind around 3 mph.",46,3 mph

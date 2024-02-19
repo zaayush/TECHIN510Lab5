@@ -10,7 +10,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Or just go the link : [Seattle Events Data Visualization](aayushlab5.azurewebsites.net)
+Or just go the link : [Seattle Events Data Visualization](https://aayushlab5.azurewebsites.net/)
 
 ## What's Included
 
