@@ -79,11 +79,11 @@ for data in event_data:
                 windSpeed = forecast['windSpeed']
                 data.extend([detailed_forecast, temperature, windSpeed])
             else:
-                data.extend(["Weather data not available"] * 4)
+                data.extend(["Weather data not available"] * 3)
         else:
-            data.extend(["Weather data not available"] * 4)
+            data.extend(["Weather data not available"] * 3)
     else:
-        data.extend(["Weather data not available"] * 4)
+        data.extend(["Weather data not available"] * 3)
 
         
 

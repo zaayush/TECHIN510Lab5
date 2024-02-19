@@ -138,11 +138,3 @@ st.write(sorted_data)
 # Close the database connection
 conn.close()
 
-
-
-# # Display the data in a table
-# st.subheader("Seattle Events Data")
-# st.write(df_all_data)
-
-# Close the database connection
-conn.close()
