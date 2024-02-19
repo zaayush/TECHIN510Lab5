@@ -34,7 +34,7 @@ def extract_event_details(event_url):
 
 # Extract event URLs
 event_data = []
-for page in range(0, 10):
+for page in range(0, 30):
     print(f'Getting page {page}...')
     soup = extract(page)
     event_urls = extract_event_urls(soup)
