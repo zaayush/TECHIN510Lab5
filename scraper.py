@@ -102,10 +102,6 @@ print("Data has been successfully written to the CSV file.")
 conn = get_db_conn()
 cursor = conn.cursor()
 
-# Store data in the Azure PostgreSQL database
-conn = get_db_conn()
-cursor = conn.cursor()
-
 # Create the 'events' table if it does not exist
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS events (
