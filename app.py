@@ -3,6 +3,7 @@ import pandas as pd
 import altair as alt
 from db import get_db_conn
 import datetime
+from dateutil.relativedelta import relativedelta
 
 # Title
 st.title("Seattle Events Dashboard")
@@ -74,19 +75,37 @@ st.altair_chart(chart_location)
 # Feature: Data Filtering and Sorting
 
 # Category filter
-selected_category = st.selectbox("Select a category", df_all_data['event_type'].unique())
+include_all_categories = st.checkbox("Include All Categories")
+if include_all_categories:
+    selected_category = df_all_data['event_type'].unique()
+else:
+    selected_category = st.multiselect("Select categories", df_all_data['event_type'].unique())
 
 # Location filter
-selected_location = st.selectbox("Select a location", df_all_data['location'].unique())
+include_all_locations = st.checkbox("Include All Locations")
+if include_all_locations:
+    selected_location = df_all_data['location'].unique()
+else:
+    selected_location = st.multiselect("Select locations", df_all_data['location'].unique())
 
 # Temperature filter
-temperature_range = st.slider("Select temperature range", float(df_all_data['temperature'].min()), float(df_all_data['temperature'].max()), (float(df_all_data['temperature'].min()), float(df_all_data['temperature'].max())))
-selected_temperature_min, selected_temperature_max = temperature_range
+include_all_temperatures = st.checkbox("Include All Temperatures")
+if include_all_temperatures:
+    selected_temperature_min = float(df_all_data['temperature'].min())
+    selected_temperature_max = float(df_all_data['temperature'].max())
+else:
+    temperature_range = st.slider("Select temperature range", float(df_all_data['temperature'].min()), float(df_all_data['temperature'].max()), (float(df_all_data['temperature'].min()), float(df_all_data['temperature'].max())))
+    selected_temperature_min, selected_temperature_max = temperature_range
 
 
 # Date range selector
-start_date = st.date_input("Select start date")
-end_date = st.date_input("Select end date")
+include_all_dates = st.checkbox("Include All Dates")
+if include_all_dates:
+    start_date = datetime.datetime.now().date()
+    end_date = datetime.datetime.now().date() + relativedelta(months=6)
+else:
+    start_date = st.date_input("Select start date")
+    end_date = st.date_input("Select end date")
 
 # Convert start_date and end_date to datetime objects
 start_date = datetime.datetime(start_date.year, start_date.month, start_date.day)
@@ -97,11 +116,12 @@ df_all_data['date'] = pd.to_datetime(df_all_data['date'])
 
 # Apply filters
 filtered_data = df_all_data[
-    (df_all_data['event_type'] == selected_category) &
+    (df_all_data['event_type'].isin(selected_category)) &
     (df_all_data['date'].between(start_date, end_date)) &
-    (df_all_data['location'] == selected_location) &
+    (df_all_data['location'].isin(selected_location)) &
     (df_all_data['temperature'].between(selected_temperature_min, selected_temperature_max))
 ]
+
 
 # Clear filter button
 if st.button("Clear Filter"):
@@ -113,14 +133,6 @@ if st.button("Clear Filter"):
     end_date = None
     filtered_data = df_all_data
 
-# Apply filter button
-if st.button("Apply Filter"):
-    filtered_data = df_all_data[
-        (df_all_data['event_type'] == selected_category) &
-        (df_all_data['date'].between(start_date, end_date)) &
-        (df_all_data['location'] == selected_location) &
-        (df_all_data['temperature'].between(selected_temperature_min, selected_temperature_max))
-    ]
 
 # Sort data
 sort_by = st.selectbox("Sort by", ['date', 'event_type', 'location', 'temperature'])
